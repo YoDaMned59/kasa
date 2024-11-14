@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerLogo img {
+        width: 210.32px;
+        height: 68px;
+        margin-left: 100px;
+        margin-top: 45px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 62px;
+        gap: 57px;
+        font-family: Montserrat;
+        font-size: 24px;
+        margin-right: 100px;
+    }
+
+    li {
+        text-decoration: none;
+    }
+}
